@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+h3{
+   font-size: 1.5rem;
+}
+
+.bill_info p{
+    line-height: 1rem; 
+}
+
+.container{
+    width: 80vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    padding: 3rem;
+}
+
+.bill_info{
+    padding: 1rem;
+    line-height: 3rem;
+}
+
+.innerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 5rem;
+}
+
+.inline{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.col_left{
+    min-width: 20vw;
+    margin-right: 1rem;
+}
+
+.col_right{
+    min-width: 50vw;
+    margin-left: 1rem;
+    position: relative;
+}
+
+hr{
+    min-width: 77vw;
+    color: beige;
+}
+
+input , select{
+    width: 100%;
+    height: 30px;
+    padding: 1rem;
+    background-color: rgb(246, 244, 244) ;
+    border: none;
+}
+
+.input_grp{
+    width: 100%;
+    line-height: 2.6rem;
+}
+
+button{
+    position: absolute;
+    right: 0px;
+    height: 2rem;
+    border: none;
+    margin-top: 1rem;
+    min-width: 10rem;
+}
+
+
+@media screen and (max-width: 900px) {
+   .container{
+    min-width: 80vw;
+    margin-left: 10px;
+   }
+
+   hr{
+    min-width: 85vw;
+   }
+  } 
+
+  @media screen and (max-width :600px){
+
+    h3{
+        font-size: 1.15rem;
+    }
+    .container{
+        min-width:80vw ;
+        background-color: aquamarine;
+        font-size: 1rem;
+    }
+}
+
+
+
+

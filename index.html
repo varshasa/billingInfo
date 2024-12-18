@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bill_info">
+            <h3>Billing Information</h3>
+            <p>Update your billing details and address</p>
+        </div>
+        <form class="form" action="">
+        <div class="innerContainer">
+        <div class="col_left">Payment details</div>
+            <div class="col_right">
+                    <div class="input_grp">
+                        <label>Card number</label><br>
+                        <input type="text" placeholder="1234 1234 1234 1234">
+                    </div>
+                    <div class="input_grp">
+                        <label>Cardholder name</label><br>
+                        <input type="text" placeholder="Full name on card">
+                    </div>
+                    <div class="input_grp inline">
+                        <div class="input_grp">
+                        <label>Expiry</label><br>
+                        <input type="text" placeholder="MM/YY">
+                        </div>
+                        <div class="input_grp">
+                        <label>CVV</label><br>
+                        <input type="text" placeholder="123">
+                        </div>
+                    </div>
+              </div>
+            </div>
+            <hr>
+        <div class="innerContainer">
+        <div class="col_left">Email address</div>
+            <div class="col_right">
+                <div class="input_grp">
+                    <label>Email</label><br>
+                    <input type="text" placeholder="user@example.com">
+                </div> 
+            </div>
+        </div>
+        <hr>
+        
+        <div class="innerContainer">
+        <div class="col_left">Address details</div>
+            <div class="col_right">
+                <div class="input_grp">
+                    <label>Country / Region</label><br>
+                        <select name="country" id="country">
+                            <option value="">united states</option>
+                        </select>
+                </div>
+                <div class="input_grp">
+                    <label>Address</label><br>
+                    <input type="text" placeholder="Street address">
+                    </div>
+                    <div class="input_grp">
+                    <input type="text" placeholder="Apartment,suite,etc(optional)">
+                </div>
+                <div class="input_grp inline">
+                    <div class="input_grp">
+                    <label>City</label><br>
+                    <input type="text" placeholder="City">
+                    </div>
+                    <div class="input_grp">
+                        <label>State</label><br>
+                        <select name="state" id="state">
+                            <option value="">State</option>
+                        </select>
+                    </div>
+                    <div class="input_grp">
+                    <label>Zip</label><br>
+                    <input type="text" placeholder="123">
+                    </div>
+                </div>
+                <button type="submit">Save Changes</button>
+            </div>
+        </div> 
+        </div>
+        </form>     
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
