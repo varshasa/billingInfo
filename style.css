@@ -97,17 +97,43 @@ button{
    }
   } 
 
-  @media screen and (max-width :600px){
+ @media screen and (max-width :600px){
 
     h3{
         font-size: 1.15rem;
     }
+
+    p{
+        font-size: 0.8rem;
+    }
+
+    .bill_info{
+        display: flex;
+        flex-direction: column;
+    }
     .container{
-        min-width:80vw ;
-        background-color: aquamarine;
+        min-width:70vw ;
         font-size: 1rem;
+        padding-left: 0px;
+    }
+
+    .innerContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col_left{
+        padding-left: 0px;
+        width: 100vw;
+        background-color: rgb(255, 240, 241);
+    }
+    .col_right{
+        width: 100vw;
+        background-color: rgb(255, 240, 241);
+        flex: 1px;
     }
 }
+
 
 
 
